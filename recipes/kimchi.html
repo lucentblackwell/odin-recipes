@@ -3,24 +3,35 @@
   <head>
     <meta charset="utf-8">
     <title>Kimchi (Korean Fermented Cabbage)</title>
+    <link rel="stylesheet" href="../style.css">
   </head>
 
-  <body>
-    <h1>Kimchi (Korean Fermented Cabbage)</h1>
+  <body id="kimchi">
+    <h1 class="recipe-title">Kimchi (Korean Fermented Cabbage)</h1>
 
-    <img src="../images/kimchi.jpg" alt="Image of kimchi">
-    <p><a href="https://commons.wikimedia.org/wiki/File:KOCIS_Kimchi_(4553316599).jpg">Korea.net / Korean Culture and Information Service (Photographer name)</a>, <a href="https://creativecommons.org/licenses/by-sa/2.0">CC BY-SA 2.0</a>, via Wikimedia Commons</p>
+    <!-- Image of the dish -->  
 
+    <div class="recipe-image">
+    <img src="../images/kimchi.jpg" width="500px" height="445px" alt="Image of kimchi">
+
+    <p class="attribution">
+      <a href="https://commons.wikimedia.org/wiki/File:KOCIS_Kimchi_(4553316599).jpg">Korea.net / Korean Culture and Information Service (Photographer name)</a>, <a href="https://creativecommons.org/licenses/by-sa/2.0">CC BY-SA 2.0</a>, via Wikimedia Commons
+    </p>
+    </div>
+
+    <!-- The recipe of the dish with ingredient list and a short description -->
+
+    <div class="recipe">
     <h2>Description</h2>
     <p>Kimchi is a traditional Korean side dish made from salted and fermented vegetables, most commonly napa cabbage, seasoned with a vibrant mixture of chili powder, garlic, ginger, and fish sauce.</p>
 
     <h2>Ingredients</h2>
-    <ul>
+    <ul class="ingredients-list" >
       <li>Napa Cabbage: 1 large head (cut into quarters)</li>
       <li>Coarse Salt: 1 cup (for brining)</li>
       <li>Water: Enough to cover the cabbage</li>
       <li>Kimchi Paste: 
-        <ul>
+        <ul class="ingredients-list sublist">
           <li>Korean Chili Flakes (Gochugaru): 1/2 cup</li>
           <li>Fish Sauce: 1/4 cup</li>
           <li>Chopped garlic: 1 tablespoon</li>
@@ -28,7 +39,7 @@
       </li>
     </ul>
 
-    <h2>Steps</h2>
+    <h2 class="recipe-steps">Steps</h2>
     <ol>
       <li>
         <p>Rub the coarse salt liberally onto every leaf of the cabbage quarters.</p>
@@ -62,10 +73,13 @@
         <p>Transfer the jar to the refrigerator. Kimchi is ready to eat immediately but will continue to ferment and develop deeper, sour flavors over weeks.</p>
       </li>
     </ol>
-    <a href="../index.html">Home</a>
+    </div>
+
+    <!-- Go to home page link -->
+    <a href="../index.html" class="return-home">Return to Odin Recipes</a>
 
     <footer>
-      <p>&copy; 2025, Odin Recipes. All content on this site is AI-generated for demonstration purposes.</p>
+      <p>&copy; 2026, Odin Recipes. All content on this site is AI-generated for demonstration purposes.</p>
     </footer>
   </body>
 </html>

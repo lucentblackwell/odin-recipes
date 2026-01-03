@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+
+/* Style for the main page */
+
+}
+body {
+  background-color: darkseagreen;
+}
+
+h1 {
+  text-align: center;
+}
+
+div.recipe-list {
+  background-color: ghostwhite;
+  width: 800px;
+  margin: 16px auto;
+  padding: 16px;
+}
+
+.recipe-list ul {
+  list-style-type: none;
+}
+
+footer {
+  text-align: center;
+  background-color: lightgray;
+  width: 800px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.recipe-link {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.recipe-list img {
+  vertical-align: middle; /* vertically align the image so that the text is in
+  the middle of it */
+  margin: 12px;
+
+}
+
+/* Style for each recipe page */
+
+/* Select a background color to match the color of the dish */
+body#kheer {
+  background-color:rgb(247, 246, 242);
+}
+
+body#kimchi {
+  background-color: rgb(254, 203, 183);
+}
+
+body#paneer-tikka-masala {
+  background-color: rgb(255, 200, 155);
+}
+
+/* Other styles */
+
+div.recipe {
+  background-color: antiquewhite;
+  width: 800px;
+  margin: 12px auto;
+  padding: 12px;
+}
+
+div.recipe-image {
+
+  background-color: wheat;
+  width: 550px;
+  margin: 12px auto;
+}
+
+.recipe-image img {
+  display: block;
+  margin: 12px auto 6px;
+  padding: 12px;
+}
+
+p.attribution {
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 12px;
+  margin-top: 6px;
+  padding-bottom: 6px;
+}
+
+a.return-home {
+  display: block;
+  width: 200px;
+  background-color: rgb(190, 254, 188);
+  color: black;
+  margin: 16px auto;
+  padding: 12px;
+}

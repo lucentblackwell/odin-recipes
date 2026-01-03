@@ -3,26 +3,37 @@
   <head>
     <meta charset="utf-8">
     <title>Paneer Tikka Masala</title>
+    <link rel="stylesheet" href="../style.css">
   </head>
 
-  <body>
-    <h1>Paneer Tikka Masala</h1>
+  <body id="paneer-tikka-masala">
+    <h1 class="recipe-title">Paneer Tikka Masala</h1>
 
-    <img src="../images/paneer-tikka-masala.jpg" alt="Image of paneer tikka masala">
-    <p><a href="https://commons.wikimedia.org/wiki/File:Paneer_Tikka_masala.JPG">Srivalli Vijayakumar</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons</p>
+    <!-- Image of the dish --> 
 
+    <div class="recipe-image">
+    <img src="../images/paneer-tikka-masala.jpg" width="512px" height="384px" alt="Image of paneer tikka masala">
+
+    <p class="attribution">
+      <a href="https://commons.wikimedia.org/wiki/File:Paneer_Tikka_masala.JPG">Srivalli Vijayakumar</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
+    </p>
+    </div>
+
+    <!-- The recipe of the dish with ingredient list and a short description -->
+
+    <div class="recipe">
     <h2>Description</h2>
     <p>Paneer Tikka Masala is a popular North Indian dish featuring marinated and grilled cubes of paneer (Indian cottage cheese) simmered in a rich, creamy, and mildly spiced tomato-based gravy.</p>
 
     <h2>Ingredients</h2>
-    <ul>
+    <ul class="ingredients-list">
       <li>Paneer: 200g, cubed</li>
       <li>Yogurt: 1/2 cup (for marination)</li>
       <li>Ginger-Garlic Paste: 1 tablespoon</li>
       <li>Tomato Puree: 1 cup</li>
       <li>Cream: 1/4 cup</li>
       <li>Spices: 1 teaspoon of
-        <ul>
+        <ul class="ingredients-list sublist" >
           <li>Garam Masala</li>
           <li>Turmeric Powder</li>
           <li>Red Chili Powder</li>
@@ -31,7 +42,7 @@
     </ul>
 
     <h2>Steps</h2>
-    <ol>
+    <ol class="recipe-steps">
       <li>
         <p>Mix the paneer cubes with yogurt, half of the ginger-garlic paste, and a pinch of all three spices (Garam Masala, Turmeric, Chili Powder). Marinate for 30 minutes.</p>
       </li>
@@ -60,10 +71,13 @@
         <p>Stir in the cream and add the cooked paneer tikka pieces. Gently simmer for 5 minutes. Garnish with fresh coriander before serving.</p>
       </li>
     </ol>
-    <a href="../index.html">Home</a>
+    </div>
+
+    <!-- Go to home page link -->
+    <a href="../index.html" class="return-home">Return to Odin Recipes</a>
 
     <footer>
-      <p>&copy; 2025, Odin Recipes. All content on this site is AI-generated for demonstration purposes.</p>
+      <p>&copy; 2026, Odin Recipes. All content on this site is AI-generated for demonstration purposes.</p>
     </footer>
   </body>
 </html>
